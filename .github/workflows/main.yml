@@ -8,3 +8,6 @@ job :
       - using : action / checkout @ v1 
       - using : ./action-a with :
            MY_NAME : " Mona "
+git fetch origin
+git checkout -b DoThuong-GitHub-patch-1 origin/DoThuong-GitHub-patch-1
+git merge main
