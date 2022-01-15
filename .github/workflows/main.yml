@@ -1,2 +1,10 @@
 name : Luồng công việc cho tệp Hello World của tôi 
 trên : push
+job :
+   build :
+     name : Hello world action 
+    chạy trên : ubuntu- 
+    các bước mới nhất : 
+      - using : action / checkout @ v1 
+      - using : ./action-a with :
+           MY_NAME : " Mona "
