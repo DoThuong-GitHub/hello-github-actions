@@ -1,0 +1,17 @@
+name : " Hello Actions "
+ description : " Greet someone "
+ author : " octocat@github.com "
+
+đầu vào :
+   MY_NAME :
+     mô tả : "
+     Ai cần chào " : true 
+    mặc định : " Thế giới "
+
+running :
+   using : "
+   docker " image : " Dockerfile "
+
+thương hiệu :
+   biểu tượng : " mic "
+   màu : " tím "
